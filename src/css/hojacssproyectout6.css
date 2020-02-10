@@ -1,0 +1,56 @@
+a[target] {
+  background-color: red;
+}
+
+a[target=_self] {
+  background-color: greenyellow;
+}
+
+*[alt~=K2] {
+  border: 3px solid black;
+  border-radius: 5%;
+}
+
+p[class|=claseparrafo] {
+  background-color: indigo;
+}
+
+.claseparrafo-1 {
+  font: 30px monospace;
+}
+
+*[class^=claseselector] {
+  text-decoration: underline;
+}
+
+.claseselector1 {
+  color: aqua;
+}
+
+input[type=text] {
+  width: 60%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  /*border: none;
+   border-bottom: 2px solid red;*/
+}
+
+input[type=text]:focus {
+  background-color: aqua;
+  width: 100%;
+}
+
+input[type=text].claseinput1 {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("../img/icono.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+/*# sourceMappingURL=hojacssproyectout6.css.map */
